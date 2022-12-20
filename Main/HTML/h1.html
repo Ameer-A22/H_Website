@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Information about HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+  <body>  
+    <nav class="navbar sticky navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../homepage.html"><img src="../skills_city1.png" alt="Logo" width="25" height="25" class="d-inline-block align-middle">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Python/python.html">Python</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML/h1.html">HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Javascript (Added in the future)</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Side navigation -->
+<div id="mysidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#div1" onclick="closeNav()">What is HTML?</a>
+    <a href="#div2" onclick="closeNav()">Element Content</a>
+    <a href="#div3" onclick="closeNav()">HTML Headings</a>
+    <a href="#div4" onclick="closeNav()">HTML Paragraphs</a>
+    <a href="#div5" onclick="closeNav()">HTML Links</a>
+    <a href="#div6" onclick="closeNav()">HTML Images</a>
+    <a href="#div7" onclick="closeNav()">List Item Element</a>
+    <a href="#div8" onclick="closeNav()">Ordered List Element</a>
+    <a href="#div9" onclick="closeNav()">Video Element</a>
+    <a href="#div10" onclick="closeNav()">Emphasis Element</a>
+    <a href="#div11" onclick="closeNav()">Div Element</a>
+    <a href="#div12" onclick="closeNav()">Anchor Element</a>
+    <a href="#div13" onclick="closeNav()">Summary</a>
+    </div>
+   
+    <!-- Page content -->
+    <div class="main">
+  
+    <div class="contents">
+      <span onclick="openNav()" style="color:blue" class="btn btn-primary">Contents</span>
+    </div>
+  
+   <div id="div1"></div><h1>What is HTML</h1>
+   <br>
+   <p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.</p>    
+   <p>
+    <li>All HTML documents must start with a document type declaration: &lt !DOCTYPE html &gt.</li>
+    <li>The HTML document itself begins with &lt html &gt and ends with &lt /html &gt.</li>
+    <li>The visible part of the HTML document is between &lt body &gt and &lt /body &gt.</li></p>
+   <br>
+    
+   <div id="div2"><h2>Element Content</h2></div>
+   <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+    
+   <br>
+    
+   <div id="div3"><h2>HTML Headings</h2></div>
+   <p>HTML headings are defined with the &lt h1 &gt to &lt h6 &gt tags.</p>
+    
+   <p>&lt h1 &gt defines the most important heading. &lt h6 &gt defines the least important heading.</p>
+    
+   <br>
+    
+   <div id="div4"><h2>HTML Paragraphs</h2></div>
+   <p>HTML paragraphs are defined with the &lt p &gt tag.</p>
+    
+   <br>
+    
+   <div id="div5"><h2>HTML Links</h2></div>
+   <p>HTML links are defined with the &lt a &gt tag.The link's destination is specified in the href attribute. Attributes are used to provide additional information about HTML elements.</p>
+    
+   <br>
+    
+   <div id="div6"><h2>HTML Images</h2></div>
+   <p>HTML images are defined with the &lt img &gt tag. The source file <em>(src)</em>, alternative text <em>(alt)</em>, width, and height are provided as attributes.</p>
+    
+   <br>
+    
+   <div id="div7"><h2>List Item Element</h2></div>
+   <p>The &lt li &gt list item element create list items inside:
+    
+   <li>Ordered lists &lt ol &gt</li>
+   <li>Unordered lists &lt ul &gt</li></p>
+    
+   <br>
+    
+   <div id="div8"><h2>Ordered List Element</h2></div>
+   <p>The &lt ol &gt ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</p>
+    
+   <br>
+    
+   <div id="div9"><h2>Video Element</h2></div>
+   <p>The &lt video &gt element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.</p>
+    
+   <br>
+    
+   <p><b>Note:</b><em>The content inside the opening and closing tag is shown as a fallback in browsers that don't support the element.</em></p>
+    
+   <br>
+    
+   <div id="div10"><h2>Emphasis Element</h2></div>
+    
+   <p>The &lt em &gt emphasis element emphasizes text and browsers will usually <em>italicise</em> the emphasized text by default.</p>
+    
+   <br>
+    
+   <div id="div11"><h2>Div Element</h2></div>
+   <p>The &lt div &gt element is used as a container that divides an HTML document into sections and is short for “division”. &lt div &gt elements can contain flow content such as headings, paragraphs, links, images, etc.</p>
+    
+   <br>
+    
+   <div id="div12"><h2>Anchor Element</h2></div>
+   <p>The &lt a &gt anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, href.</p>
+    
+   <br>
+    
+   <div id="div13"><h2>Summary</h2></div>
+   <p>These are some of the basics to get you started on writing your own HTML code. There are many more tags that you can research (about another 90 or so more). Time to put it into practice and start creating your own website!</p>
+<p>These are some of the basics to get you started on writing your own HTML code. There are many more tags that you can research (about another 90 or so more). Time to put it into practice and start creating your own website!</p>
+   </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
